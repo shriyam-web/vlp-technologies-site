@@ -5,7 +5,7 @@ const team = [
   {
     name: 'Shriyam Parashar',
     role: 'CEO & Full-Stack Developer',
-    bio: 'With 8+ years of experience in web development, Alex leads our technical vision and client relationships.',
+    bio: 'With 8+ years of experience in web development, Shriyam leads our technical vision and client relationships.',
     avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['React.js', 'Node.js', 'AWS', 'Team Leadership'],
     social: {
@@ -17,7 +17,7 @@ const team = [
   {
     name: 'Shanvika',
     role: 'Co-owner',
-    bio: 'Sarah specializes in React Native development and has built 20+ cross-platform mobile applications.',
+    bio: 'Shanvika specializes in React Native development and has built 20+ cross-platform mobile applications.',
     avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['React Native', 'iOS', 'Android', 'Mobile UI/UX'],
     social: {
@@ -29,7 +29,7 @@ const team = [
   {
     name: 'Kirti Rajani',
     role: 'Senior Frontend Developer',
-    bio: 'Michael creates beautiful, responsive user interfaces and has expertise in modern CSS and JavaScript frameworks.',
+    bio: 'Kirti creates beautiful, responsive user interfaces and has expertise in modern CSS and JavaScript frameworks.',
     avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['React.js', 'TypeScript', 'Tailwind CSS', 'Next.js'],
     social: {
@@ -41,7 +41,18 @@ const team = [
   {
     name: 'Pranjal Gupta',
     role: 'UI/UX Designer & Developer',
-    bio: 'Emily combines design thinking with development skills to create user-centered digital experiences.',
+    bio: 'Pranjal combines design thinking with development skills to create user-centered digital experiences.',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
+    skills: ['UI/UX Design', 'Figma', 'React.js', 'User Research'],
+    social: {
+      linkedin: '#',
+      twitter: '#',
+      // email: 'emily@vlptechnologies.com'
+    },
+    {
+    name: 'Priya Chaudhary',
+    role: 'UI/UX Designer & Developer',
+    bio: 'Pranjal combines design thinking with development skills to create user-centered digital experiences.',
     avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['UI/UX Design', 'Figma', 'React.js', 'User Research'],
     social: {
