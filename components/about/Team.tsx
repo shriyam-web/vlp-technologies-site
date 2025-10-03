@@ -3,51 +3,51 @@ import { Linkedin, Twitter, Mail } from 'lucide-react';
 
 const team = [
   {
-    name: 'Alex Johnson',
+    name: 'Shriyam Parashar',
     role: 'CEO & Full-Stack Developer',
     bio: 'With 8+ years of experience in web development, Alex leads our technical vision and client relationships.',
-    avatar: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
+    // avatar: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
     skills: ['React.js', 'Node.js', 'AWS', 'Team Leadership'],
     social: {
-      linkedin: '#',
-      twitter: '#',
-      email: 'alex@vlptechnologies.com'
+      linkedin: 'https://www.linkedin.com/in/shriyamparashar',
+      instagram: 'https://www.instagram.com/shriyam_05/',
+      email: 'shriyamparashar5@gmail.com'
     }
   },
   {
-    name: 'Sarah Martinez',
+    name: 'Shanvika',
     role: 'Lead Mobile Developer',
     bio: 'Sarah specializes in React Native development and has built 20+ cross-platform mobile applications.',
-    avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300',
+    // avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300',
     skills: ['React Native', 'iOS', 'Android', 'Mobile UI/UX'],
     social: {
       linkedin: '#',
       twitter: '#',
-      email: 'sarah@vlptechnologies.com'
+      // email: 'sarah@vlptechnologies.com'
     }
   },
   {
-    name: 'Michael Chen',
+    name: 'Kirti Rajani',
     role: 'Senior Frontend Developer',
     bio: 'Michael creates beautiful, responsive user interfaces and has expertise in modern CSS and JavaScript frameworks.',
-    avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300',
+    // avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300',
     skills: ['React.js', 'TypeScript', 'Tailwind CSS', 'Next.js'],
     social: {
       linkedin: '#',
       twitter: '#',
-      email: 'michael@vlptechnologies.com'
+      // email: 'michael@vlptechnologies.com'
     }
   },
   {
-    name: 'Emily Davis',
+    name: 'Pranjal Gupta',
     role: 'UI/UX Designer & Developer',
     bio: 'Emily combines design thinking with development skills to create user-centered digital experiences.',
-    avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
+    // avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
     skills: ['UI/UX Design', 'Figma', 'React.js', 'User Research'],
     social: {
       linkedin: '#',
       twitter: '#',
-      email: 'emily@vlptechnologies.com'
+      // email: 'emily@vlptechnologies.com'
     }
   }
 ];
