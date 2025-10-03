@@ -54,7 +54,7 @@ const team = [
   {
     name: 'Priya Chaudhary',
     role: 'UI/UX Designer & Developer',
-    bio: 'Pranjal combines design thinking with development skills to create user-centered digital experiences.',
+    bio: 'Priya combines design thinking with development skills to create user-centered digital experiences.',
     avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['UI/UX Design', 'Figma', 'React.js', 'User Research'],
     social: {
