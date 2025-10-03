@@ -10,7 +10,7 @@ export function SupportWidget() {
     "Hi! I'm interested in your web/mobile development services. Could you please provide more information?"
   );
 
-  const whatsappNumber = "1234567890"; // Replace with actual WhatsApp number
+  const whatsappNumber = "9648974867"; // Replace with actual WhatsApp number
 
   return (
     <>
@@ -49,7 +49,7 @@ export function SupportWidget() {
             </a>
 
             <a
-              href="tel:+15551234567"
+              href="tel:+919648974867"
               className="flex items-center space-x-3 p-3 rounded-lg bg-blue-50 hover:bg-blue-100 border border-blue-200 transition-colors duration-200"
             >
               <div className="bg-blue-500 text-white p-2 rounded-full">
@@ -57,7 +57,7 @@ export function SupportWidget() {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Call Us</p>
-                <p className="text-sm text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-sm text-gray-600">+91 9648974867</p>
               </div>
             </a>
 
@@ -70,7 +70,7 @@ export function SupportWidget() {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Email Us</p>
-                <p className="text-sm text-gray-600">info@vlptechnologies.com</p>
+                <p className="text-sm text-gray-600">shriyamparashar5@gmail.com</p>
               </div>
             </a>
           </div>
