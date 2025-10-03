@@ -16,7 +16,7 @@ const team = [
   },
   {
     name: 'Shanvika',
-    role: 'Lead Mobile Developer',
+    role: 'Co-owner',
     bio: 'Sarah specializes in React Native development and has built 20+ cross-platform mobile applications.',
     avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['React Native', 'iOS', 'Android', 'Mobile UI/UX'],
