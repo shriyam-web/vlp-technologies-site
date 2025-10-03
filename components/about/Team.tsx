@@ -6,7 +6,7 @@ const team = [
     name: 'Shriyam Parashar',
     role: 'CEO & Full-Stack Developer',
     bio: 'With 8+ years of experience in web development, Alex leads our technical vision and client relationships.',
-    // avatar: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
+    avatar: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
     skills: ['React.js', 'Node.js', 'AWS', 'Team Leadership'],
     social: {
       linkedin: 'https://www.linkedin.com/in/shriyamparashar',
@@ -18,7 +18,7 @@ const team = [
     name: 'Shanvika',
     role: 'Lead Mobile Developer',
     bio: 'Sarah specializes in React Native development and has built 20+ cross-platform mobile applications.',
-    // avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300',
+    avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300',
     skills: ['React Native', 'iOS', 'Android', 'Mobile UI/UX'],
     social: {
       linkedin: '#',
@@ -30,7 +30,7 @@ const team = [
     name: 'Kirti Rajani',
     role: 'Senior Frontend Developer',
     bio: 'Michael creates beautiful, responsive user interfaces and has expertise in modern CSS and JavaScript frameworks.',
-    // avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300',
+    avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300',
     skills: ['React.js', 'TypeScript', 'Tailwind CSS', 'Next.js'],
     social: {
       linkedin: '#',
