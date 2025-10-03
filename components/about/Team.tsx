@@ -49,7 +49,9 @@ const team = [
       twitter: '#',
       // email: 'emily@vlptechnologies.com'
     },
-    {
+    
+  }
+  {
     name: 'Priya Chaudhary',
     role: 'UI/UX Designer & Developer',
     bio: 'Pranjal combines design thinking with development skills to create user-centered digital experiences.',
@@ -60,7 +62,7 @@ const team = [
       twitter: '#',
       // email: 'emily@vlptechnologies.com'
     }
-  }
+}
 ];
 
 export function Team() {
