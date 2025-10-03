@@ -48,9 +48,9 @@ const team = [
       linkedin: '#',
       twitter: '#',
       // email: 'emily@vlptechnologies.com'
-    },
+    }
     
-  }
+  },
   {
     name: 'Priya Chaudhary',
     role: 'UI/UX Designer & Developer',
