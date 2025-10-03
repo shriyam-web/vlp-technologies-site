@@ -42,7 +42,7 @@ const team = [
     name: 'Pranjal Gupta',
     role: 'UI/UX Designer & Developer',
     bio: 'Emily combines design thinking with development skills to create user-centered digital experiences.',
-    // avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
+    avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
     skills: ['UI/UX Design', 'Figma', 'React.js', 'User Research'],
     social: {
       linkedin: '#',
