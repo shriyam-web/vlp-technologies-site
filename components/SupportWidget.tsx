@@ -62,7 +62,7 @@ export function SupportWidget() {
             </a>
 
             <a
-              href="mailto:info@vlptechnology.in"
+              href="mailto:shriyamparashar5@gmail.com"
               className="flex items-center space-x-3 p-3 rounded-lg bg-purple-50 hover:bg-purple-100 border border-purple-200 transition-colors duration-200"
             >
               <div className="bg-purple-500 text-white p-2 rounded-full">
@@ -70,7 +70,7 @@ export function SupportWidget() {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Email Us</p>
-                <p className="text-sm text-gray-600">info@vlptechnology.in</p>
+                <p className="text-sm text-gray-600">shriyamparashar5@gmail.com</p>
               </div>
             </a>
           </div>

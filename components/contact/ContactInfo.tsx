@@ -4,8 +4,8 @@ const contactDetails = [
   {
     icon: Mail,
     title: 'Email Us',
-    content: 'info@vlptechnology.in',
-    link: 'mailto:info@vlptechnology.in',
+    content: 'shriyamparashar5@gmail.com',
+    link: 'mailto:shriyamparashar5@gmail.com',
     description: 'Send us an email anytime'
   },
   {

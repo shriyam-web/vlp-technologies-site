@@ -17,12 +17,27 @@ export function ContactForm() {
     e.preventDefault();
     setIsLoading(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      const response = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...formData,
+          formType: 'contact'
+        }),
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setFormData({ name: '', email: '', phone: '', message: '' });
+      } else {
+        console.error('Failed to submit form');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    } finally {
       setIsLoading(false);
-      setIsSubmitted(true);
-      setFormData({ name: '', email: '', phone: '', message: '' });
-    }, 1000);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

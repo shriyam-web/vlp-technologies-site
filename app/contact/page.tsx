@@ -3,10 +3,30 @@ import { ContactHero } from '@/components/contact/ContactHero';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { ContactInfo } from '@/components/contact/ContactInfo';
 import { LocationMap } from '@/components/contact/LocationMap';
+import { seoConfig } from '@/lib/seoConfig';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - VLP Technologies',
-  description: 'Get in touch with VLP Technologies for your web and mobile development needs. We are ready to help.',
+  title: 'Contact VijayLaxmi Technologies | Web Development Noida Delhi NCR',
+  description: 'Get in touch with VijayLaxmi Technologies (VLP Tech) for web and mobile app development. Located in Noida & Delhi NCR. Free consultation & quick response.',
+  keywords: [
+    'contact web developer Noida',
+    'hire developers Delhi',
+    'web development services contact',
+    'app development company contact',
+    'software development Noida',
+    'tech company Noida contact',
+    'VLP Technologies contact',
+  ].join(', '),
+  openGraph: {
+    title: 'Contact VijayLaxmi Technologies | Web Development Company',
+    description: 'Reach out to VLP Technologies in Noida & Delhi NCR for your web development and app development needs.',
+    url: `${seoConfig.baseUrl}/contact`,
+    type: 'website',
+    locale: 'en_IN',
+  },
+  alternates: {
+    canonical: `${seoConfig.baseUrl}/contact`,
+  },
 };
 
 export default function Contact() {
