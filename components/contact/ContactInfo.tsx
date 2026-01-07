@@ -11,14 +11,14 @@ const contactDetails = [
   {
     icon: Phone,
     title: 'Call Us',
-    content: '+1 (555) 123-4567',
-    link: 'tel:+15551234567',
-    description: 'Mon-Fri from 9am to 6pm'
+    content: '+91 9648974867',
+    link: 'tel:+919648974867',
+    description: 'Mon-Sat from 9am to 6pm'
   },
   {
     icon: MapPin,
     title: 'Visit Us',
-    content: '123 Tech Street, Digital City, DC 12345',
+    content: 'Noida, India',
     link: 'https://maps.google.com',
     description: 'Come visit our office'
   },

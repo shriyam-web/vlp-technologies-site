@@ -3,10 +3,10 @@ import { Linkedin, Twitter, Mail } from 'lucide-react';
 
 const team = [
   {
-    name: 'Alex Johnson',
+    name: 'Shriyam Parashar',
     role: 'CEO & Full-Stack Developer',
-    bio: 'With 8+ years of experience in web development, Alex leads our technical vision and client relationships.',
-    avatar: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
+    bio: 'With 8+ years of experience in web development, Shriyam leads our technical vision and client relationships.',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['React.js', 'Node.js', 'AWS', 'Team Leadership'],
     social: {
       linkedin: '#',
@@ -15,10 +15,10 @@ const team = [
     }
   },
   {
-    name: 'Sarah Martinez',
-    role: 'Lead Mobile Developer',
-    bio: 'Sarah specializes in React Native development and has built 20+ cross-platform mobile applications.',
-    avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300',
+    name: 'Shanvika',
+    role: 'Co-owner',
+    bio: 'Shanvika specializes in React Native development and has built 20+ cross-platform mobile applications.',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['React Native', 'iOS', 'Android', 'Mobile UI/UX'],
     social: {
       linkedin: '#',
@@ -27,10 +27,10 @@ const team = [
     }
   },
   {
-    name: 'Michael Chen',
+    name: 'Kirti Rajani',
     role: 'Senior Frontend Developer',
-    bio: 'Michael creates beautiful, responsive user interfaces and has expertise in modern CSS and JavaScript frameworks.',
-    avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300',
+    bio: 'Kirti creates beautiful, responsive user interfaces and has expertise in modern CSS and JavaScript frameworks.',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['React.js', 'TypeScript', 'Tailwind CSS', 'Next.js'],
     social: {
       linkedin: '#',
@@ -39,17 +39,30 @@ const team = [
     }
   },
   {
-    name: 'Emily Davis',
+    name: 'Pranjal Gupta',
     role: 'UI/UX Designer & Developer',
-    bio: 'Emily combines design thinking with development skills to create user-centered digital experiences.',
-    avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
+    bio: 'Pranjal combines design thinking with development skills to create user-centered digital experiences.',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
     skills: ['UI/UX Design', 'Figma', 'React.js', 'User Research'],
     social: {
       linkedin: '#',
       twitter: '#',
       email: 'emily@vlptechnology.in'
     }
-  }
+    
+  },
+  {
+    name: 'Priya Chaudhary',
+    role: 'UI/UX Designer & Developer',
+    bio: 'Priya combines design thinking with development skills to create user-centered digital experiences.',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/1946/1946429.png',
+    skills: ['UI/UX Design', 'Figma', 'React.js', 'User Research'],
+    social: {
+      linkedin: '#',
+      twitter: '#',
+      // email: 'emily@vlptechnologies.com'
+    }
+}
 ];
 
 export function Team() {
