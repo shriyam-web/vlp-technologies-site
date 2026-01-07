@@ -4,8 +4,8 @@ const contactDetails = [
   {
     icon: Mail,
     title: 'Email Us',
-    content: 'info@vlptechnologies.com',
-    link: 'mailto:info@vlptechnologies.com',
+    content: 'info@vlptechnology.in',
+    link: 'mailto:info@vlptechnology.in',
     description: 'Send us an email anytime'
   },
   {
@@ -35,14 +35,14 @@ export function ContactInfo() {
     <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
       <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in touch</h2>
       <p className="text-gray-600 mb-8">
-        We're here to help and answer any question you might have. 
+        We're here to help and answer any question you might have.
         We look forward to hearing from you.
       </p>
-      
+
       <div className="space-y-6">
         {contactDetails.map((detail, index) => {
           const IconComponent = detail.icon;
-          
+
           return (
             <div key={index} className="flex items-start space-x-4">
               <div className="bg-blue-100 p-3 rounded-lg flex-shrink-0">

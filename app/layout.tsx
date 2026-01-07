@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'VLP Technologies - Web & Mobile App Development',
     description: 'VLP Technologies specializes in modern web development using React.js and mobile app development using React Native.',
-    url: 'https://vlptechnologies.com',
+    url: 'https://vlptechnology.in',
     siteName: 'VLP Technologies',
     type: 'website',
   },
@@ -42,10 +42,10 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "VLP Technologies",
               "description": "Web and Mobile App Development Company",
-              "url": "https://vlptechnologies.com",
-              "logo": "https://vlptechnologies.com/logo.png",
+              "url": "https://vlptechnology.in",
+              "logo": "https://vlptechnology.in/logo.png",
               "sameAs": [
-                "https://linkedin.com/company/vlptechnologies",
+                "https://linkedin.com/company/vlptechnology",
                 "https://twitter.com/vlptech"
               ],
               "contactPoint": {

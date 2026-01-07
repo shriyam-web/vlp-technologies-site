@@ -31,7 +31,7 @@ export function SupportWidget() {
             <h3 className="font-semibold">Need Help?</h3>
             <p className="text-sm text-blue-100">We're here to assist you!</p>
           </div>
-          
+
           <div className="p-4 space-y-3">
             <a
               href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
@@ -62,7 +62,7 @@ export function SupportWidget() {
             </a>
 
             <a
-              href="mailto:info@vlptechnologies.com"
+              href="mailto:info@vlptechnology.in"
               className="flex items-center space-x-3 p-3 rounded-lg bg-purple-50 hover:bg-purple-100 border border-purple-200 transition-colors duration-200"
             >
               <div className="bg-purple-500 text-white p-2 rounded-full">
@@ -70,7 +70,7 @@ export function SupportWidget() {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Email Us</p>
-                <p className="text-sm text-gray-600">info@vlptechnologies.com</p>
+                <p className="text-sm text-gray-600">info@vlptechnology.in</p>
               </div>
             </a>
           </div>

@@ -11,7 +11,7 @@ const team = [
     social: {
       linkedin: '#',
       twitter: '#',
-      email: 'alex@vlptechnologies.com'
+      email: 'alex@vlptechnology.in'
     }
   },
   {
@@ -23,7 +23,7 @@ const team = [
     social: {
       linkedin: '#',
       twitter: '#',
-      email: 'sarah@vlptechnologies.com'
+      email: 'sarah@vlptechnology.in'
     }
   },
   {
@@ -35,7 +35,7 @@ const team = [
     social: {
       linkedin: '#',
       twitter: '#',
-      email: 'michael@vlptechnologies.com'
+      email: 'michael@vlptechnology.in'
     }
   },
   {
@@ -47,7 +47,7 @@ const team = [
     social: {
       linkedin: '#',
       twitter: '#',
-      email: 'emily@vlptechnologies.com'
+      email: 'emily@vlptechnology.in'
     }
   }
 ];
@@ -59,7 +59,7 @@ export function Team() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our talented team of developers and designers are passionate about creating 
+            Our talented team of developers and designers are passionate about creating
             exceptional digital experiences and driving innovation in every project.
           </p>
         </div>
@@ -75,12 +75,12 @@ export function Team() {
                   className="object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
-              
+
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
                 <p className="text-blue-600 font-medium mb-3">{member.role}</p>
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">{member.bio}</p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {member.skills.map((skill, skillIndex) => (
                     <span
@@ -91,7 +91,7 @@ export function Team() {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex space-x-3">
                   <a
                     href={member.social.linkedin}

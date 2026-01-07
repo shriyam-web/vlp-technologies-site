@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://vlptechnologies.com';
+  const baseUrl = 'https://vlptechnology.in';
 
   return [
     {
