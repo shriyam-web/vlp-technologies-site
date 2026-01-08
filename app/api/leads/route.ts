@@ -61,6 +61,7 @@ export async function POST(request: NextRequest) {
 
     try {
       await transporter.sendMail(mailOptions);
+      console.log('Email notification sent successfully to:', process.env.NOTIFY_RECEIVER);
     } catch (emailError) {
       console.error('Error sending email:', emailError);
     }
