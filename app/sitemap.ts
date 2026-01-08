@@ -6,37 +6,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const pages: MetadataRoute.Sitemap = [
     {
-      url: baseUrl,
+      url: `${baseUrl}/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: `${baseUrl}/services`,
+      url: `${baseUrl}/services/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.95,
     },
     {
-      url: `${baseUrl}/projects`,
+      url: `${baseUrl}/projects/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/about`,
+      url: `${baseUrl}/about/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/contact`,
+      url: `${baseUrl}/contact/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/get-quote`,
+      url: `${baseUrl}/get-quote/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.95,
@@ -44,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const servicePages = seoConfig.services.map(service => ({
-    url: `${baseUrl}/services/${service.slug}`,
+    url: `${baseUrl}/services/${service.slug}/`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
@@ -52,49 +52,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const locationPages: MetadataRoute.Sitemap = [
     {
-      url: `${baseUrl}/seo-web-development-noida`,
+      url: `${baseUrl}/seo-web-development-noida/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/seo-web-development-delhi`,
+      url: `${baseUrl}/seo-web-development-delhi/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/mern-stack-development-noida`,
+      url: `${baseUrl}/mern-stack-development-noida/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/nextjs-development-noida`,
+      url: `${baseUrl}/nextjs-development-noida/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/speed-optimized-websites-noida`,
+      url: `${baseUrl}/speed-optimized-websites-noida/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/web-development-noida`,
+      url: `${baseUrl}/web-development-noida/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/web-development-delhi`,
+      url: `${baseUrl}/web-development-delhi/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/react-development-noida`,
+      url: `${baseUrl}/react-development-noida/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
