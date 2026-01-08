@@ -2,13 +2,13 @@ export const seoConfig = {
   baseUrl: 'https://vlptechnology.in',
   brandName: 'VijayLaxmi Technologies',
   brandAliases: ['VLP Technologies', 'Vijay Laxmi Technologies'],
-  
+
   company: {
     name: 'VijayLaxmi Technologies',
     shortName: 'VLP Tech',
     description: 'Expert SEO-optimized web development company specializing in MERN Stack, Next.js, and speed-optimized websites in Noida and Delhi NCR',
-    phone: '+91-9350446644',
-    email: 'contact@vlptechnology.in',
+    phone: '+91-9648974867',
+    email: 'shriyamparashar5@gmail.com',
     founded: '2020',
   },
 
